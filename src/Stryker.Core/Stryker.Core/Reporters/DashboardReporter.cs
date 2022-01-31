@@ -45,7 +45,7 @@ namespace Stryker.Core.Reporters
                 }
                 else
                 {
-                    _consoleWriter.Write(Output.Cyan("Hint: by passing \"--open-report:dashboard or -o:dashboard\" the report will open automatically once Stryker is done."));
+                    _consoleWriter.WriteLine(Output.Cyan("Hint: by passing \"--open-report:dashboard or -o:dashboard\" the report will open automatically once Stryker is done."));
                 }
 
                 _logger.LogDebug("Your stryker report has been uploaded to: \n {0} \nYou can open it in your browser of choice.", reportUri);

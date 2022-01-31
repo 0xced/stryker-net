@@ -213,7 +213,7 @@ namespace Stryker.Core.Compiling
                     var brokenMutation = rollbackRoot.FindNode(diagnostic.Location.SourceSpan);
                     var errorLocation = diagnostic.Location.GetMappedLineSpan();
                     Logger.LogWarning(
-                        "Stryker.NET encountered an compile error in {0} (at {1}:{2}) with message: {3} (Source code: {4})",
+                        "Stryker.NET encountered an compile error in {Path} (at {Line}:{Character}) with message: {Message} (Source code: {SourceCode})",
                         errorLocation.Path, errorLocation.StartLinePosition.Line,
                         errorLocation.StartLinePosition.Character, diagnostic.GetMessage(), brokenMutation);
                     if (devMode)

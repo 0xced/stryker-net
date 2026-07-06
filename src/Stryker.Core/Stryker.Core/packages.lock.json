@@ -23,9 +23,9 @@
       },
       "Crayon": {
         "type": "Direct",
-        "requested": "[2.0.64, )",
-        "resolved": "2.0.64",
-        "contentHash": "/HvVrtMTaZ4nm3xYGkNFfRiPLoqRuQQgZIlyYUCn9fQa2UlT6PA/xoGJFaV2S8ogz/LoTdq6Wi2Qi7DddF1JSg=="
+        "requested": "[2.0.69, )",
+        "resolved": "2.0.69",
+        "contentHash": "eJHxoMTfhZs1782YUIMafXIDTPcTwAV5I3MNsl2d4Mn61/h3ABPMSzHwzigL/NO7BrCKRoP4gHJuERpLHdSCvg=="
       },
       "DotNet.Glob": {
         "type": "Direct",
@@ -1274,13 +1274,13 @@
       "stryker.datacollector": {
         "type": "Project",
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "16.10.0"
+          "Microsoft.TestPlatform.ObjectModel": "[16.10.0, )"
         }
       },
       "stryker.regexmutators": {
         "type": "Project",
         "dependencies": {
-          "RegexParser": "0.5.1"
+          "RegexParser": "[0.5.1, )"
         }
       }
     }
